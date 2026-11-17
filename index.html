@@ -76,7 +76,7 @@ var API_URL = "https://script.google.com/macros/s/AKfycbw61Tzq2hwSu41gCOtR3x0Y0n
 var POLL_MS = 5000; // 他の端末の入力を取り込む間隔(ミリ秒)
 
 (function(){
-  var COLORS=["#d1242f","#8a96a3","#1f6feb","#e0a800","#2da44e","#a371f7","#e16f24","#d4509a"];
+  var COLORS=["#2da44e","#1f6feb","#e0a800","#d1242f","#8a96a3","#a371f7","#e16f24","#d4509a"];
   var S=null, dirty={}, timers={}, q=Promise.resolve();
   var isDisp=/view=display/.test(location.search)||location.hash==="#display";
   var key=lsGet("undokai-key")||"";
